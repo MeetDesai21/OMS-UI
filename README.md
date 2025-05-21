@@ -1,45 +1,48 @@
-# 🧾 OMS-UI
+# 🏢 Office Management System (OMS) - UI
 
-**OMS-UI** is a modern, responsive web interface built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/), designed to serve as the frontend for an Order Management System. It provides a clean and intuitive user experience for managing orders efficiently.
+**OMS (Office Management System)** is a modern web-based ticketing platform designed to streamline internal office operations such as service requests, issue tracking, and task management. This repository contains the **frontend UI**, built using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/), providing a fast, responsive, and intuitive interface for employees and admins.
 
-## 🚀 Features
+> 💼 Developed and led by the **Business Analyst** of the project, this UI is a key module in the larger OMS ticketing system.
 
-- **Next.js 14**: Leveraging the latest features for optimal performance.
-- **Tailwind CSS**: Utility-first styling for rapid UI development.
-- **TypeScript**: Ensuring type safety across the codebase.
-- **Modular Architecture**: Organized code structure with clear separation of concerns.
-- **Reusable Components**: Built with scalability and maintainability in mind.
+---
+
+## 🚀 Key Features
+
+- 🎫 Ticket Creation & Tracking Interface
+- 🔍 Request Filtering & Status Views
+- 👤 Role-based Access (Admin, Employee, Support Staff)
+- ⚡ Fast-loading with Next.js 14
+- 🎨 Clean, Responsive UI using Tailwind CSS
+- 🧱 Component-based, scalable architecture
+
+---
 
 ## 🛠️ Tech Stack
 
-- [Next.js 14](https://nextjs.org/)
-- [React 18](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [PostCSS](https://postcss.org/)
-- [pnpm](https://pnpm.io/)
-- [Bun](https://bun.sh/)
+- **Framework:** [Next.js 14](https://nextjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Package Managers:** `pnpm`, `npm`, and `bun` supported
+- **Bundling & Config:** PostCSS, Tailwind, TypeScript
+
+---
 
 ## 📁 Project Structure
 
 ```
-├── app/                 # Next.js app directory
-├── components/          # Reusable UI components
-├── hooks/               # Custom React hooks
-├── lib/                 # Utility functions and libraries
-├── public/              # Static assets
-├── styles/              # Global and component-specific styles
-├── .gitignore
-├── bun.lock             # Bun lockfile
-├── components.json      # Component configurations
-├── next.config.mjs      # Next.js configuration
-├── package-lock.json    # npm lockfile
-├── package.json         # Project metadata and scripts
-├── pnpm-lock.yaml       # pnpm lockfile
-├── postcss.config.mjs   # PostCSS configuration
-├── tailwind.config.ts   # Tailwind CSS configuration
-├── tsconfig.json        # TypeScript configuration
+├── app/                 # Next.js App Directory
+├── components/          # Reusable UI Components
+├── hooks/               # Custom React Hooks
+├── lib/                 # Utility Functions
+├── public/              # Static Assets
+├── styles/              # Global Styles
+├── next.config.mjs      # Next.js Config
+├── tailwind.config.ts   # Tailwind CSS Config
+├── tsconfig.json        # TypeScript Config
+├── package.json         # Project Metadata & Scripts
 ```
+
+---
 
 ## 📦 Installation
 
@@ -53,54 +56,66 @@
 2. **Install dependencies:**
 
    Using **pnpm**:
-
    ```bash
    pnpm install
    ```
 
    Or using **npm**:
-
    ```bash
    npm install
    ```
 
    Or using **bun**:
-
    ```bash
    bun install
    ```
 
-## 🧪 Development
+---
 
-To start the development server:
+## 🧪 Running the App
+
+To start the local development server:
 
 ```bash
 pnpm dev
-```
-
-Or:
-
-```bash
+# or
 npm run dev
-```
-
-Or:
-
-```bash
+# or
 bun run dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-## 🧰 Available Scripts
+---
 
-- `dev`: Starts the development server.
-- `build`: Builds the application for production.
-- `start`: Starts the production server.
-- `lint`: Runs linting checks.
+## 🧰 Scripts
+
+- `dev` – Start local dev server
+- `build` – Create a production build
+- `start` – Start production server
+- `lint` – Run linting checks
+
+---
+
+## 🔒 Authentication & Roles *(Planned)*
+
+- 🔐 Secure login/logout for all users
+- 👨‍💼 Admin: View all tickets, assign tasks
+- 👨‍💻 Employee: Raise and track tickets
+- 🧑‍🔧 Support Staff: Manage assigned tickets
+
+---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
+## 👨‍💻 Developed by
+
+Lead Business Analyst: [Meet Desai](https://github.com/MeetDesai21)
+
+---
+
+> 💡 *This UI is a part of a larger Office Management System initiative to improve operational efficiency, issue tracking, and inter-departmental coordination within organizations.*
