@@ -1,5 +1,7 @@
 # 🏢 Office Management System (OMS) - UI
 
+[![GitHub stars](https://img.shields.io/github/stars/MeetDesai21/OMS-UI.svg)](https://github.com/MeetDesai21/OMS-UI/stargazers) [![GitHub forks](https://img.shields.io/github/forks/MeetDesai21/OMS-UI.svg)](https://github.com/MeetDesai21/OMS-UI/network) [![GitHub issues](https://img.shields.io/github/issues/MeetDesai21/OMS-UI.svg)](https://github.com/MeetDesai21/OMS-UI/issues) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white)
+
 **OMS (Office Management System)** is a modern web-based ticketing platform designed to streamline internal office operations such as service requests, issue tracking, and task management. This repository contains the **frontend UI**, built using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/), providing a fast, responsive, and intuitive interface for employees and admins.
 
 > 💼 Developed and led by the **Business Analyst** of the project, this UI is a key module in the larger OMS ticketing system.
